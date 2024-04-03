@@ -32,6 +32,7 @@ function displayTimer() {
                 hours++;
             }
         }
+        console.log("hello")
     }
 
     let h = hours < 10 ? "0" + hours : hours;
