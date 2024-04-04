@@ -20,6 +20,8 @@ document.getElementById("reset-timer").addEventListener("click", () => {
     timeRef.innerHTML = "00 : 00 : 00 : 000 ";
 });
 
+console.log("testing")
+
 function displayTimer() {
     milliseconds += 10;
     if(milliseconds == 1000) {
