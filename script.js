@@ -13,11 +13,12 @@ document.getElementById("pause-timer").addEventListener("click", () => {
     clearInterval(int);
 });
 
+//testing git
 document.getElementById("reset-timer").addEventListener("click", () => {
     clearInterval(int);
     [milliseconds, seconds, minutes, hours] = [0, 0, 0, 0];
     timeRef.innerHTML = "00 : 00 : 00 : 000 ";
-}); 
+});
 
 function displayTimer() {
     milliseconds += 10;
