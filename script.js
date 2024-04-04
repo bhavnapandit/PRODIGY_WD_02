@@ -14,8 +14,7 @@ document.getElementById("pause-timer").addEventListener("click", () => {
 });
 
 //testing main
-//hello
-
+//revert test
 
 document.getElementById("reset-timer").addEventListener("click", () => {
     clearInterval(int);
