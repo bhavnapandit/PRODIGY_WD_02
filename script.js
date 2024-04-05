@@ -13,9 +13,7 @@ document.getElementById("pause-timer").addEventListener("click", () => {
     clearInterval(int);
 });
 
-//testing main
-//hello
-
+//function tp resest timer
 document.getElementById("reset-timer").addEventListener("click", () => {
     clearInterval(int);
     [milliseconds, seconds, minutes, hours] = [0, 0, 0, 0];
@@ -35,7 +33,6 @@ function displayTimer() {
                 hours++;
             }
         }
-        console.log("hello")
     }
 
     let h = hours < 10 ? "0" + hours : hours;
